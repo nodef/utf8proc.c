@@ -1,0 +1,29 @@
+{
+  "name": "utf8proc.c",
+  "version": "2.11.2",
+  "description": "A clean C library for processing UTF-8 Unicode data; Steven G. Johnson (2014).",
+  "keywords": [
+    "c",
+    "library",
+    "utf8",
+    "unicode",
+    "string",
+    "normalization",
+    "case-folding",
+    "text-processing"
+  ],
+  "homepage": "https://github.com/nodef/utf8proc.c#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/utf8proc.c/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/utf8proc.c.git"
+  },
+  "license": "MIT",
+  "author": "wolfram77@gmail.com",
+  "main": "utf8proc.h",
+  "scripts": {
+    "test": "bash build.sh test"
+  }
+}
