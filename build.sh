@@ -38,8 +38,16 @@ echo ""
 
 # Test the project
 test() {
-echo "Running 01-win32_gdi.c ..."
-clang -I. -o 01.exe examples/01-win32_gdi.c  && ./01.exe && echo -e "\n"
+echo "Running 01-codepoint_to_utf8.c ..."
+clang -I. -o 01.exe examples/01-codepoint_to_utf8.c   && ./01.exe && echo -e "\n"
+echo "Running 02-utf8_to_codepoints.c ..."
+clang -I. -o 02.exe examples/02-utf8_to_codepoints.c  && ./02.exe && echo -e "\n"
+echo "Running 03-casefold.c ..."
+clang -I. -o 03.exe examples/03-casefold.c            && ./03.exe && echo -e "\n"
+echo "Running 04-normalization.c ..."
+clang -I. -o 04.exe examples/04-normalization.c       && ./04.exe && echo -e "\n"
+echo "Running 05-custom_filter.c ..."
+clang -I. -o 05.exe examples/05-custom_filter.c       && ./05.exe && echo -e "\n"
 }
 
 
